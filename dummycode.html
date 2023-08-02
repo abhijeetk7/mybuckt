@@ -1,0 +1,27 @@
+ function sum(){
+        if(arguments==0){
+           console.log("no arguments are passed");
+        }else{
+         let add=0;
+         for(let i=0;i<arguments.length;i++){
+           add = add +arguments[i]
+         }
+         console.log(add);
+        }
+     }
+     sum(3,4,5)
+
+// swapping values without third variable...
+    let x=20,y=40;
+        x=x+20
+        y=y-20;
+       
+     console.log(`the value of x is ${x} and the value of y is ${y}`);
+
+//factor of the given no.
+     let num=12;
+     for(let i=1;i<=num-1;i++){
+       if(num%i==0){
+            console.log(i);
+       }
+     }
